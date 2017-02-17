@@ -1,25 +1,22 @@
-* {
+body {
     font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
 }
 
-html {
-  font-size: 14px;
+.text-muted {
+  color: #BCBBBB;
 }
 
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 16px;
-  }
+.text-thin {
+  font-weight: 100;
 }
 
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 20px;
-  }
+
+.title-super {
+  font-size: 60px;
 }
 
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 28px;
-  }
+.title-logo {
+  margin-top: 20px;
 }
