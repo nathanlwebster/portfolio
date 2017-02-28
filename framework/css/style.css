@@ -1,6 +1,76 @@
 img, embed, object, video {
   max-width: 100%;
 }
+.bulb {
+  position: relative;
+  max-width: 100%;
+  margin-right: 0;
+}
+#title {
+  position: absolute;
+  top: 530px;
+  right: 40px;
+  font-family: 'Bitter', serif;
+  color: #fdfdfd;
+  font-size: 58px;
+}
+#mainTitle {
+  position: absolute;
+  top: 480px;
+  right: 165px;
+  font-family: 'Special Elite', cursive;
+  color: #d3d3d3;
+  font-size: 38px;
+}
+
+div.container.col-md-10 {
+  padding-right: 0;
+}
+
+div.navi {
+  /*background-color: #AE4500;*/
+  background-color: #1E0D06;
+  padding: 100px 0;
+  height: 640px;
+  margin-left: 0;
+  width: 180px;
+}
+.navi li {
+  margin: 40px 0;
+  list-style: none;
+  font-family: 'Special Elite', cursive;
+  color: #fdfdfd;
+  font-size: 20px;
+}
+.sectionTitle {
+  background-color: #AE4500;
+  height: 40px;
+  color: #fdfdfd;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Special Elite', cursive;
+  line-height: 40px;
+  padding-left: 20px;
+}
+.aboutPar {
+  width: 500px;
+  margin: 20px auto;
+}
+p#about {
+  font-family: 'Bitter', serif;
+}
+.footer {
+  text-align: center;
+}
+
+
+
+
+
+
+/*img, embed, object, video {
+  max-width: 100%;
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -24,3 +94,6 @@ body {
 .title-logo {
   margin-top: 20px;
 }
+#mobile {
+  text-align: center;
+}*/
